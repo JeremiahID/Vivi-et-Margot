@@ -1,0 +1,55 @@
+/* header color:6D776E */
+/* precceding header :4C534C */
+/* color brown:805D48 */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    font-family:Candara light;
+}
+
+body{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    min-height: 40vh;
+    width: 100%;
+    background-color: #6D776E ;
+}
+
+.giftCards{
+    background-color:#4C534C  ;
+    min-height: 7vh;
+}
+
+.giftcardLink{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 4rem;
+    padding: 2rem 4rem; 
+}
+.giftcardLink:hover{
+    transition: all .5s ease-in-out 0s;
+    background-color: #ffffff33;
+   
+}
+
+
+.cadeau{
+    font-size: 4.5rem;
+}
+
+.carte{
+    font-size: 4.5rem;
+    padding: 4rem 10rem;
+
+}
