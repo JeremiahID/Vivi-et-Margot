@@ -130,3 +130,16 @@ li a:hover{
     height: 10vh;
     background-image: url('../images/flower.webp');
 }
+
+
+/* THE FRENCCH INSPIRED HOME */
+.french-inspired{
+    min-height: 150vh;
+    background-color: #4C534C;
+}
+
+.french-inspired-home{
+    min-height: 140vh;
+    width: 80%;
+    background-color: #fff;
+}
