@@ -19,6 +19,11 @@ body{
     align-items: center;
 }
 
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 header{
     min-height: 40vh;
     width: 100%;
@@ -102,3 +107,12 @@ header{
     padding: 0rem .5rem;
 }
 
+/* NAVIGATIONS */
+
+#navigations{
+
+}
+
+li{
+    list-style-type: none;
+}
