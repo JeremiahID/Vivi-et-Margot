@@ -115,4 +115,5 @@ header{
 
 li{
     list-style-type: none;
+    padding: .5rem 1rem;
 }
