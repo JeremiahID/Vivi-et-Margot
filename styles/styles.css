@@ -80,6 +80,8 @@ header{
 
 }
 
+
+
 .currency{
     color: black;
 }
@@ -90,7 +92,9 @@ header{
 }
 
 .cart-svg{
-    background-color: #fff;
+    width: 5vw;
+    height: 4vh;
+    
 }
 
 .search{
@@ -109,11 +113,13 @@ header{
 
 /* NAVIGATIONS */
 
-#navigations{
-
-}
-
 li{
     list-style-type: none;
     padding: .5rem 1rem;
 }
+
+li a:hover{
+    color: #c4c4c4;
+}
+
+
