@@ -80,8 +80,6 @@ header{
 
 }
 
-
-
 .currency{
     color: black;
 }
@@ -89,12 +87,16 @@ header{
 
 .cart-search{
     justify-content: space-evenly;
+    width: 19%;
+}
+
+.Circle{
+    height: 10vh;
 }
 
 .cart-svg{
-    width: 5vw;
-    height: 4vh;
-    
+    /* width: 5vw; */
+    height: 5vh;
 }
 
 .search{
@@ -123,3 +125,8 @@ li a:hover{
 }
 
 
+/* FLOWER SECTION */
+.flower{
+    height: 10vh;
+    background-image: url('../images/flower.webp');
+}
