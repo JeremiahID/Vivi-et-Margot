@@ -36,23 +36,23 @@ header{
 .gift-card-link{
     text-decoration: none;
     border: 1px solid #fff;
-    border-radius: 20px;
-    font-size: 4rem;
-    padding: 2rem 4rem; 
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: .5rem 1rem; 
 }
-.giftcardLink:hover{
+.gift-card-link:hover{
     transition: all .5s ease-in-out 0s;
-    background-color: #ffffff33;
+    background-color: #11111133;
    
 }
 
 .cadeau{
-    font-size: 4.5rem;
+    font-size: 1.2rem;
 }
 
 .carte{
-    font-size: 4.5rem;
-    padding: 4rem 10rem;
+    font-size: 1rem;
+    padding: 1rem 5rem;
 
 }
 
@@ -65,9 +65,36 @@ header{
 } 
 
 #currency{
-    width: 7vw;
-    height: 4vh;
-    font-size: 4rem;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0rem .6rem;
     color: black;
+    outline: 0px;
 
 }
+
+.currency{
+    color: black;
+}
+        /* CART-SEARCH SECTION */
+
+.cart-search{
+    justify-content: space-evenly;
+}
+
+.search{
+    height: 4vh;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.search::placeholder{
+    color: #fff;
+    padding: 0rem .5rem;
+}
+

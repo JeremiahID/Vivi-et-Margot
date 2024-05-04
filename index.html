@@ -18,11 +18,11 @@
 
         <div class="page-head flex">
             <select name="" id="currency">
-                <option value="USD">USD</option>
-                <option value="AUD">AUD</option>
-                <option value="CAD">CAD</option>
-                <option value="EUR">EUR</option>
-                <option value="GBP">GBP</option>
+                <option value="USD" selected class="currency">USD($)</option>
+                <option value="AUD" class="currency">AUD(AU$)</option>
+                <option value="CAD" class="currency">CAD(C$)</option>
+                <option value="EUR" class="currency">EUR(€)</option>
+                <option value="GBP" class="currency">GBP(£)</option>
 
             </select>
 
@@ -30,7 +30,8 @@
                 <img src="/images/Text logo white.webp" alt="">
             </div>
 
-            <div class="cart-search">
+            <div class="cart-search flex">
+                <input type="search" id="search" placeholder="Search..." class="search"> 
                 <img src="/images/Circle basket logo white.webp" alt="" srcset="">
 
             </div>
