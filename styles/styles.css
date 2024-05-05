@@ -138,6 +138,12 @@ li a:hover{
     background-color: #4C534C;
 }
 
+.grid-3-col{
+    display: grid;
+    
+
+}
+
 .french-inspired-home{
     min-height: 140vh;
     width: 80%;
