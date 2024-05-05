@@ -165,7 +165,6 @@ li a:hover{
 .span{
     grid-column: span 1;
     grid-row: span 1;
-    border: 1px solid green;
     margin: 2rem 1rem;
 }
 
@@ -195,12 +194,13 @@ li a:hover{
 
 .french-inspired-home-link{
     background-color: #6d776e;
-    padding: .5rem 1rem;
+    padding: .5rem 2rem;
     text-transform: uppercase;
     
 }
 
 .french-inspired-home-link:hover{
     background-color: #6d776ec4;
+    transition: all .2s ease-in 0s;
     
 }
