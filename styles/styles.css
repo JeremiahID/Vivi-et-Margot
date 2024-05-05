@@ -168,7 +168,7 @@ li a:hover{
     margin: 2rem 1rem;
 }
 
-.flex-inspired-home{
+.flex-col{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -208,3 +208,45 @@ li a:hover{
 
 /* VIVI ET FAVORITES */
 
+.vivi-favorite{
+    height: 70vh;
+    background-color:#6d776e41;
+
+}
+
+.vivi-favorite-container{
+    height: 65vh;
+    width: 100%;
+    background-color:#6d776e;
+}
+
+.fav-header{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.fav-header-span{
+    text-transform: lowercase;
+    font-size: 1.2rem;
+}
+
+.fav-p{
+    justify-content: space-evenly;
+}
+
+.fav-p p{
+    padding: 0rem 1rem;
+    text-transform: uppercase;
+}
+
+.fav-line{
+    height: .1rem;
+    width: 5rem;
+    background-color: #fff;
+}
+
+.fav-content{
+    width: 60%;
+    height: 65%;
+    background-color:#b8b8b8;
+}
