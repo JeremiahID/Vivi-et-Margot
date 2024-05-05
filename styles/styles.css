@@ -249,4 +249,5 @@ li a:hover{
     width: 60%;
     height: 65%;
     background-color:#b8b8b8;
+    grid-template-rows: 1fr;
 }
