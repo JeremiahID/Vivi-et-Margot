@@ -24,6 +24,7 @@ a{
     text-decoration: none;
 }
 
+
 header{
     min-height: 40vh;
     width: 100%;
@@ -206,6 +207,72 @@ li a:hover{
 }
 
 
+
+/* vivi gift section */
+
+.vivi-gift{
+    width: 100%;
+    height: 70vh;
+    /* background-color: red; */
+    margin: 2rem 0rem;
+    position: relative;
+}
+
+.vivi-gift-wrapper{
+    height: 65vh;
+    width: 90%;
+    background-color: white;
+    position: absolute;
+}
+
+.vivi-gift-container{
+    height: 35vh;
+    width: 50%;
+    border: 5px solid  #6d776e41;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.vivi-gift-img-header{
+    background-color: #fff;
+    position: absolute;
+    top: 5rem;
+    left: 20rem;
+}
+
+/* vivi gift text content  */
+.vivi-gift-text{
+    height: 50%;
+    width: 60%;
+    background-color: red;
+
+}
+
+.vivi-gift-text-p{
+    color:#6d776e;
+    padding: 1rem 1rem;
+
+}
+
+.vivi-gift-img-r{
+    position: absolute;
+    top: 0;
+    right: 12rem;
+
+}
+
+.vivi-gift-img-r-layer{
+    position: absolute;
+    top: .8rem;
+    right: 13rem;
+}
+
+.curve-img{
+    border-radius: 10px;
+}
+
+
 /* VIVI ET FAVORITES */
 /* fav =  favorite */
 
@@ -268,7 +335,7 @@ li a:hover{
 }
 
 .fav-pic-name{
-    height: 7vh;
+    height: 5vh;
     width: 100%;
     background-color: #ffffffb4;
     display: none;
@@ -310,4 +377,19 @@ li a:hover{
 .cup:hover{
     transition: all .3s ease-in 0s;
     background-image: url('../images/70aca0_94b527af8e0f49ffad996da856b65139~mv2.webp');
+}
+
+.fav-img-name{
+    font-weight: 500;
+    padding: .2rem 0rem;
+}
+
+
+
+@media  (max-width: 900px){
+    body{
+        display: none;
+    }
+
+
 }
