@@ -207,6 +207,7 @@ li a:hover{
 
 
 /* VIVI ET FAVORITES */
+/* fav =  favorite */
 
 .vivi-favorite{
     height: 80vh;
@@ -262,6 +263,7 @@ li a:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .lamp{
@@ -269,7 +271,7 @@ li a:hover{
 }
 
 .lamp:hover{
-    transition: all .5 ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
     background-image: url('../images/70aca0_13891518335a45dbb52813e7e7bafac7~mv2.webp');
 }
 
@@ -278,7 +280,7 @@ li a:hover{
 }
 
 .card:hover{
-    transition: all .5 ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
     background-image: url('../images/70aca0_2d84e4066de94118914c5bd2552f495e~mv2.webp');
 }
 
@@ -287,6 +289,6 @@ li a:hover{
 }
 
 .cup:hover{
-    transition: all .5 ease-in-out 0s;
+    transition: all .3s ease-in 0s;
     background-image: url('../images/70aca0_94b527af8e0f49ffad996da856b65139~mv2.webp');
 }
