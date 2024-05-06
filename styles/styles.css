@@ -245,7 +245,7 @@ li a:hover{
 .vivi-gift-text{
     height: 50%;
     width: 60%;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -254,6 +254,14 @@ li a:hover{
     padding: 1rem 1rem;
 
 }
+
+.vivi-gift-text-a{
+position: absolute;
+bottom: 0;
+left: 20rem;
+
+}
+
 
 .vivi-gift-img-r{
     position: absolute;
