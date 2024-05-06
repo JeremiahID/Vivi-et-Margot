@@ -252,16 +252,20 @@ li a:hover{
 .vivi-gift-text-p{
     color:#6d776e;
     padding: 1rem 1rem;
+    font-size: 1rem;
 
+}
+
+.vivi-gift-text-em{
+    color:#6d776e; 
 }
 
 .vivi-gift-text-a{
 position: absolute;
 bottom: 10rem;
-left: 35rem;
+left: 37rem;
 
 }
-
 
 .vivi-gift-img-r{
     position: absolute;
