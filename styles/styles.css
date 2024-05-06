@@ -249,7 +249,7 @@ li a:hover{
 .fav-content{
     width: 60%;
     height: 65%;
-    background-color:#CFD1CE;
+    background-color:#a0a0a0;
     grid-template-rows: 1fr;
 }
 
@@ -264,6 +264,25 @@ li a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
+    align-items: flex-end;
+}
+
+.fav-pic-name{
+    height: 7vh;
+    width: 100%;
+    background-color: #ffffffb4;
+    display: none;
+}
+
+.fav-pic-name-p{
+    color: #000000;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+:where(.lamp:hover, .card:hover, .cup:hover) :is(.fav-pic-name){
+    display: flex;
+    transition: all .5s step-start 0s;
 }
 
 .lamp{
