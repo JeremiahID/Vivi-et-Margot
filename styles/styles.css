@@ -227,7 +227,7 @@ li a:hover{
 
 .vivi-gift-container{
     height: 35vh;
-    width: 50%;
+    width: 45%;
     border: 5px solid  #6d776e41;
     display: flex;
     justify-content: flex-start;
@@ -257,8 +257,8 @@ li a:hover{
 
 .vivi-gift-text-a{
 position: absolute;
-bottom: 0;
-left: 20rem;
+bottom: 10rem;
+left: 35rem;
 
 }
 
