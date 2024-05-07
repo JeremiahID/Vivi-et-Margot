@@ -564,6 +564,42 @@ footer{
 }
 
 
+/* ROW FOUR IMAGES */
+
+:where(.pot-holder:hover, .oven-mint:hover, .apron:hover:hover) :is(.coll-pic-name){
+    display: flex;
+    transition: all .5s step-start 0s;
+}
+
+
+.pot-holder{
+    background-image: url('../images/70aca0_7abf455995cd407a87fb3ed3022d599e~mv2.webp');
+}
+
+.pot-holder:hover{
+    transition: all .3s ease 0s;
+    background-image: url('../images/70aca0_40da435b19f1446babd05fdfa7e8119f~mv2.webp');
+}
+
+.oven-mint{
+    background-image: url('../images/70aca0_a5cd54ae60244450896b5051d03c7cb7~mv2.webp');
+}
+
+.oven-mint:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_e176787747c949b286a10686ccb711c9~mv2.webp');
+}
+
+.apron{
+    background-image: url('../images/70aca0_51bd9e609a594a5ba2788ddd80f3facc~mv2.webp');
+}
+
+.apron:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_b3dfcc34fe0147a48e0aab6223dd2e09~mv2.webp');
+}
+
+
 
 
 
