@@ -396,6 +396,134 @@ left: 37rem;
     padding: .2rem 0rem;
 }
 
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: #4C534C;
+}
+
+
+
+/* VIVI MARGOT PAGE STYLING */
+/* coll = collection */
+
+.vivi-margot-head{
+    height: 20vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.vivi-margot-container{
+    width: 100%;
+}
+
+.row-layout{
+    height: 55vh;
+    width: 60%; 
+    grid-template-rows: 1fr;
+}
+
+.span-coll{
+    margin: .5rem .5rem;
+    border: 7px solid #c4c4c4;
+}
+
+ .coll-pic{
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+
+.coll-pic-name{
+    height: 5vh;
+    width: 100%;
+    background-color: #ffffffb4;
+    display: none;
+}
+
+.coll-pic-name-p{
+    color: #000000;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.coll-img-name{
+    font-weight: 500;
+    padding: .2rem .2rem;
+    color: black;
+}
+
+:where(.lamp:hover, .card:hover, .cup:hover) :is(.coll-pic-name){
+    display: flex;
+    transition: all .5s step-start 0s;
+}
+
+.vivi-cup{
+    background-image: url('../images/70aca0_fca58feacad044a3b10e2e151dec0967~mv2.webp');
+}
+
+.vivi-cup:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_eda5a6255d1944d18d73853c12d879bc~mv2.webp');
+}
+
+.vivi-brass-cup{
+    background-image: url('../images/70aca0_d6a3e26fbea946728f820bfcfa00cf0f~mv2.webp');
+}
+
+.vivi-brass-cup:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_94b527af8e0f49ffad996da856b65139~mv2.webp');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media  (max-width: 900px){
