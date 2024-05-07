@@ -415,6 +415,7 @@ footer{
 
 .vivi-margot-container{
     width: 100%;
+  flex-direction: column;
 }
 
 .row-layout{
@@ -458,17 +459,26 @@ footer{
     color: black;
 }
 
-:where(.lamp:hover, .card:hover, .cup:hover) :is(.coll-pic-name){
+:where(.lamp:hover, .vivi-cup:hover, .vivi-brass-cup:hover) :is(.coll-pic-name){
     display: flex;
     transition: all .5s step-start 0s;
 }
+
+
+/* ROW ONE IMAGES */
+
+:where(.lamp:hover, .vivi-cup:hover, .vivi-brass-cup:hover) :is(.coll-pic-name){
+    display: flex;
+    transition: all .5s step-start 0s;
+}
+
 
 .vivi-cup{
     background-image: url('../images/70aca0_fca58feacad044a3b10e2e151dec0967~mv2.webp');
 }
 
 .vivi-cup:hover{
-    transition: all .3s ease-in-out 0s;
+    transition: all .3s ease 0s;
     background-image: url('../images/70aca0_eda5a6255d1944d18d73853c12d879bc~mv2.webp');
 }
 
@@ -482,8 +492,76 @@ footer{
 }
 
 
+/* ROW TWO IMAGES */
+
+:where(.pot:hover, .tray:hover, .card-tray:hover:hover) :is(.coll-pic-name){
+    display: flex;
+    transition: all .5s step-start 0s;
+}
 
 
+.pot{
+    background-image: url('../images/70aca0_d27f87f1a60845709cf148bceb08493a~mv2.webp');
+}
+
+.pot:hover{
+    transition: all .3s ease 0s;
+    background-image: url('../images/70aca0_70d33ed86a7c42c4a7ba2cc01010f548~mv2.webp');
+}
+
+.tray{
+    background-image: url('../images/70aca0_ff95b8e49d2b478bb8564a676287a074~mv2.webp');
+}
+
+.tray:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_ddf3097a291641da870881b45ec5171d~mv2.webp');
+}
+
+.card-tray{
+    background-image: url('../images/70aca0_8371978690974866890e9cad6e1af37e~mv2.webp');
+}
+
+.card-tray:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_77f75dedf5734102a5a9215bc18a76b7~mv2.webp');
+}
+
+
+/* ROW THREE IMAGES */
+
+:where(.pot-holder:hover, .oven-mint:hover, .apron:hover:hover) :is(.coll-pic-name){
+    display: flex;
+    transition: all .5s step-start 0s;
+}
+
+
+.pot-holder{
+    background-image: url('../images/70aca0_7abf455995cd407a87fb3ed3022d599e~mv2.webp');
+}
+
+.pot-holder:hover{
+    transition: all .3s ease 0s;
+    background-image: url('../images/70aca0_40da435b19f1446babd05fdfa7e8119f~mv2.webp');
+}
+
+.oven-mint{
+    background-image: url('../images/70aca0_a5cd54ae60244450896b5051d03c7cb7~mv2.webp');
+}
+
+.oven-mint:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_e176787747c949b286a10686ccb711c9~mv2.webp');
+}
+
+.apron{
+    background-image: url('../images/70aca0_51bd9e609a594a5ba2788ddd80f3facc~mv2.webp');
+}
+
+.apron:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_b3dfcc34fe0147a48e0aab6223dd2e09~mv2.webp');
+}
 
 
 
