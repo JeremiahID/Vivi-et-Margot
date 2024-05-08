@@ -681,4 +681,34 @@ footer{
         width: 19%;
     }
 
+
+    /* FLOWER  */
+
+
+        /* THE FRENCCH INSPIRED HOME */
+    .french-inspired{
+        min-height: 250vh;
+        background-color: #fff;
+        margin: 3rem 3rem;
+    }
+
+    .grid-3-col{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+
+
+    .french-inspired-home-top-img{
+        top: 15rem;
+        left: 12rem;
+    }
+
+    .french-inspired-home{
+        min-height: 240vh;
+        width: 70%;
+        border: 5px solid #6d776e41;
+        background-color: #fff;
+    }
+
 }
