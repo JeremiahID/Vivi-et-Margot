@@ -31,6 +31,10 @@ header{
     background-color: #6D776E ;
 }
 
+.hamburger{
+    display: none;
+}
+
 
 /* GIFTCARD SECTION*/
 
@@ -641,9 +645,40 @@ footer{
 
 
 @media  (max-width: 900px){
-    body{
+    .gift-card{
         display: none;
     }
 
+    #currency{
+        display: none;
+    }
+
+    #search{
+        display: none;
+    }
+
+    .cart-svg{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        width: 7vh;
+    }
+
+    #navigation{
+        display: none;
+    }
+
+    header{
+        min-height: 20vh;
+        width: 100%;
+        background-color: #6D776E ;
+    }
+
+    .cart-search{
+        justify-content: space-evenly;
+        width: 19%;
+    }
 
 }
