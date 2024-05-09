@@ -25,6 +25,7 @@ a{
 }
 
 
+
 header{
     min-height: 40vh;
     width: 100%;
@@ -33,6 +34,7 @@ header{
 
 .hamburger{
     display: none;
+    color: #000000;
 }
 
 
@@ -664,6 +666,11 @@ footer{
     .hamburger{
         display: block;
         width: 7vh;
+    }
+
+    #close-hamburger{
+       background-color: #6D776E;
+    
     }
 
     #navigation{
