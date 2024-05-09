@@ -742,30 +742,9 @@ footer{
 
 
     /* VIVI GIFT SECTION*/
-
-    .vivi-gift{
-        width: 100%;
-        height: 70vh;
-        /* background-color: red; */
-        margin: 2rem 0rem;
-        position: relative;
-        background-color: red;
-    }
-    
-    .vivi-gift-wrapper{
-        height: 65vh;
-        width: 90%;
-        background-color: white;
-        position: absolute;
-    }
     
     .vivi-gift-container{
-        height: 35vh;
-        width: 45%;
-        border: 5px solid  #6d776e41;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        width: 50%;
     }
     
     .vivi-gift-img-header{
@@ -779,8 +758,7 @@ footer{
 
         /* vivi gift text content  */
     .vivi-gift-text{
-        height: 50%;
-        width: 70%;
+        width: 80%;
 
     }
 
@@ -788,7 +766,7 @@ footer{
         font-size: .7rem;
 
     }
-    
+
     .vivi-gift-text-a{
         left: 17rem;
         bottom: 7rem;
