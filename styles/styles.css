@@ -668,6 +668,27 @@ footer{
 
     #navigation{
         display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        width: 30%;
+        min-height: 50vh;
+        z-index: 1;
+        border-right: 5px solid #4C534C;
+        border-bottom: 5px solid #4C534C;
+    }
+
+    li{
+        padding: 1rem 1rem;
+    }
+
+    li a{
+        color: #4C534C;
+    }
+    
+    li a:hover{
+        all: unset;
     }
 
     header{
@@ -680,7 +701,7 @@ footer{
         justify-content: space-evenly;
         width: 19%;
     }
-git 
+
     /* FLOWER  */
 
 
