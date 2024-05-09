@@ -740,7 +740,82 @@ footer{
         background-color: #fff;
     }
 
+
+    /* VIVI GIFT SECTION*/
+
+    .vivi-gift{
+        width: 100%;
+        height: 70vh;
+        /* background-color: red; */
+        margin: 2rem 0rem;
+        position: relative;
+        background-color: red;
+    }
     
+    .vivi-gift-wrapper{
+        height: 65vh;
+        width: 90%;
+        background-color: white;
+        position: absolute;
+    }
+    
+    .vivi-gift-container{
+        height: 35vh;
+        width: 45%;
+        border: 5px solid  #6d776e41;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .vivi-gift-img-header{
+        left: 10rem;
+       
+    }
+
+    .vivi-gift-img-header img {
+        height: 5vh;
+    }
+
+        /* vivi gift text content  */
+    .vivi-gift-text{
+        height: 50%;
+        width: 70%;
+
+    }
+
+    .vivi-gift-text-p{
+        font-size: .7rem;
+
+    }
+    
+    .vivi-gift-text-a{
+        left: 17rem;
+        bottom: 7rem;
+
+    }
+
+    .vivi-gift-img-r{
+        top: 4rem;
+        right: 11rem;
+
+    }
+
+    .vivi-gift-img-r img{
+        height: 12vh;
+    } 
+
+    .vivi-gift-img-r-layer img{
+        height: 10vh;
+    }
+
+    .vivi-gift-img-r-layer{
+        top: 4.5rem;
+        right: 11.5rem;
+    }
+
+
+
 
 
     /* THE VIVI MARGOT PAGE */
