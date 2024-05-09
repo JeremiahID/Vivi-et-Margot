@@ -665,7 +665,8 @@ footer{
 
     .hamburger{
         display: block;
-        width: 7vh;
+        min-width: 7vh;
+        max-width: 7vh;
     }
 
     #close-hamburger{
@@ -739,6 +740,8 @@ footer{
         background-color: #fff;
     }
 
+    
+
 
     /* THE VIVI MARGOT PAGE */
 
@@ -751,6 +754,48 @@ footer{
     .coll-img-name{
         font-weight: 700;
         font-size: 1.2rem;
+        padding: .8rem .2rem;
+        color: black;
+    }
+
+}
+
+@media  (max-width: 500px){
+
+    .logo img{
+        height: 5vh;
+    }
+    .cart-search{
+        width: 15%;
+    }
+
+    #navigation{
+        width: 40%;
+
+    }
+
+    /* FLOWER  */
+
+
+    /* THE FRENCCH INSPIRED HOME */
+
+
+    .french-inspired-home-top-img{
+        left: 8rem;
+        height: 3vh;
+    }
+
+
+    /* THE VIVI MARGOT PAGE */
+
+    .row-layout{
+        width: 75%; 
+    }
+
+    .coll-img-name{
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: center;
         padding: .8rem .2rem;
         color: black;
     }
