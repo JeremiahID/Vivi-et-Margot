@@ -739,11 +739,20 @@ footer{
         background-color: #fff;
     }
 
+
     /* THE VIVI MARGOT PAGE */
+
     .row-layout{
         height: 250vh;
         width: 60%; 
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .coll-img-name{
+        font-weight: 700;
+        font-size: 1.2rem;
+        padding: .8rem .2rem;
+        color: black;
     }
 
 }
