@@ -421,7 +421,7 @@ footer{
 
 .vivi-margot-container{
     width: 100%;
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .row-layout{
@@ -678,12 +678,13 @@ footer{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #ffffff;
+        background-color: #ffffffda;
         width: 30%;
+        backdrop-filter: blur(100px);
         min-height: 50vh;
         z-index: 1;
-        border-right: 5px solid #4C534C;
-        border-bottom: 5px solid #4C534C;
+        border-right: 5px solid #4c534c5b;
+        border-bottom: 5px solid #4c534c5b;
     }
 
     li{
@@ -736,6 +737,13 @@ footer{
         width: 70%;
         border: 5px solid #6d776e41;
         background-color: #fff;
+    }
+
+    /* THE VIVI MARGOT PAGE */
+    .row-layout{
+        height: 250vh;
+        width: 60%; 
+        grid-template-rows: repeat(3, 1fr);
     }
 
 }
