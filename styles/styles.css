@@ -405,6 +405,33 @@ left: 37rem;
     padding: .2rem 0rem;
 }
 
+
+/* ABOUT US */
+
+.about-us{
+    min-height: 90vh;
+    width: 100%;
+    background-color: #ffff;
+    position: relative;
+}
+
+.about-us-img{
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 47rem;
+}
+
+
+.about-us-container{
+    width: 40%;
+    min-height: 75vh;
+    border: 5px solid #a0a0a0;
+}
+
+
+/* FOOTER */
+
 footer{
     height: 20vh;
     width: 100%;
