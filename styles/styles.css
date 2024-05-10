@@ -336,6 +336,7 @@ left: 37rem;
     height: 65%;
     background-color:#a0a0a0;
     grid-template-rows: 1fr;
+    
 }
 
 .span-fav{
@@ -811,6 +812,34 @@ footer{
         color: black;
     }
 
+
+
+    /* VIVI FAVOURITE */
+    .vivi-favorite{
+        height: 190vh; 
+    }
+    
+    .vivi-favorite-container{
+        height: 185vh;
+    }
+    
+      
+    .grid-3-col{
+        grid-template-columns: 1fr;  
+    }
+    
+    .fav-content{
+        width: 60%;
+        height: 85%;
+        grid-template-rows: repeat(3, 1fr);
+        
+    }
+    
+    .span-fav{
+        margin: .5rem .5rem;
+    }
+    
+
 }
 
 @media  (max-width: 500px){
@@ -851,6 +880,14 @@ footer{
         text-align: center;
         padding: .8rem .2rem;
         color: black;
+    }
+
+    /* VIVI FAVOURITE */
+    .fav-content{
+        width: 80%;
+        height: 85%;
+        grid-template-rows: repeat(3, 1fr);
+        
     }
 
 }
