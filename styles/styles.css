@@ -113,7 +113,9 @@ header{
     border-radius: 3px;
     font-weight: bold;
     color: #fff;
-}
+} 
+
+
 
 .search::placeholder{
     color: #fff;
