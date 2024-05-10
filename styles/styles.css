@@ -871,6 +871,44 @@ footer{
         width: 95%;
     }
 
+    /* VIVI GIFT SECTION*/
+
+    .vivi-gift-container{
+        width: 90%;
+    }
+    
+    .vivi-gift-img-header{
+        left: 6rem;
+        
+    }
+
+    .vivi-gift-img-header img {
+        height: 7vh;
+    }
+    
+
+
+    /* vivi gift text content  */
+    .vivi-gift-text{
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .vivi-gift-text-p{
+        font-size: .7rem;
+
+    }
+
+    .vivi-gift-text-a{
+        left: 7rem;
+
+    }
+
+    .vivi-gift-img-r, .vivi-gift-img-r-layer{
+        display: none;
+
+    }
 
     /* THE VIVI MARGOT PAGE */
 
