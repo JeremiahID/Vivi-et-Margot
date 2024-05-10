@@ -608,9 +608,40 @@ footer{
 
 
 
+/* ROW FIVE IMAGES */
+
+:where(.linen-apron:hover, .card-box:hover, .string-bag:hover) :is(.coll-pic-name){
+    display: flex;
+    transition: all .5s step-start 0s;
+}
 
 
+.linen-apron{
+    background-image: url('../images/70aca0_3dbdedf3e1a34f35ae3f30a45ef538ef~mv2.webp');
+}
 
+.linen-apron:hover{
+    transition: all .3s ease 0s;
+    background-image: url('../images/70aca0_ed0a5db0ee2048bf8b8ac689b6aab355~mv2.webp');
+}
+
+.card-box{
+    background-image: url('../images/70aca0_50707e93bb7a4bad9c3c56b1e4260d94~mv2.webp');
+}
+
+.card-box:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_2d84e4066de94118914c5bd2552f495e~mv2.webp');
+}
+
+.string-bag{
+    background-image: url('../images/70aca0_9e6e87735aeb44c78dac7336f18373a9~mv2.webp');
+}
+
+.string-bag:hover{
+    transition: all .3s ease-in-out 0s;
+    background-image: url('../images/70aca0_d8eba4c90fc0452698cd6543918be3f6~mv2.webp');
+}
 
 
 
@@ -682,7 +713,6 @@ footer{
         left: 0;
         background-color: #ffffffda;
         width: 30%;
-        backdrop-filter: blur(100px);
         min-height: 50vh;
         z-index: 1;
         border-right: 5px solid #4c534c5b;
