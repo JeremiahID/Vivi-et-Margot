@@ -34,7 +34,6 @@ header{
 
 .hamburger{
     display: none;
-    color: #000000;
 }
 
 
@@ -797,18 +796,22 @@ footer{
         display: none;
     }
 
+    .Circle{
+        display: none;
+    }
+
     #search{
         display: none;
     }
 
-    .cart-svg{
-        display: none;
+    .cart-search{
+        width: 5%;
     }
 
     .hamburger{
         display: block;
-        min-width: 7vh;
-        max-width: 7vh;
+        min-width: 6vh;
+        max-width: 6vh;
     }
 
     #close-hamburger{
@@ -847,18 +850,11 @@ footer{
         background-color: #6D776E ;
     }
 
-    .cart-search{
-        justify-content: space-evenly;
-        width: 19%;
-    }
-
-    /* FLOWER  */
 
 
 
 
-
-        /* THE FRENCCH INSPIRED HOME */
+    /* THE FRENCCH INSPIRED HOME */
     .french-inspired{
         min-height: 250vh;
         background-color: #fff;
@@ -989,11 +985,11 @@ footer{
 
     /* VIVI FAVOURITE */
     .vivi-favorite{
-        height: 190vh; 
+        height: 250vh; 
     }
     
     .vivi-favorite-container{
-        height: 185vh;
+        height: 245vh;
     }
       
     .grid-3-col{
