@@ -290,14 +290,12 @@ li a:hover{
     height: 50%;
     width: 60%;
     /* background-color: red; */
-
 }
 
 .vivi-gift-text-p{
     color:#6d776e;
     padding: 1rem 1rem;
     font-size: 1rem;
-
 }
 
 .vivi-gift-text-em{
@@ -305,17 +303,15 @@ li a:hover{
 }
 
 .vivi-gift-text-a{
-position: absolute;
-bottom: 10rem;
-left: 37rem;
-
+    position: absolute;
+    bottom: 10rem;
+    left: 37rem;
 }
 
 .vivi-gift-img-r{
     position: absolute;
     top: 0;
     right: 12rem;
-
 }
 
 .vivi-gift-img-r-layer{
@@ -339,7 +335,6 @@ left: 37rem;
 .vivi-favorite{
     height: 80vh;
     background-color:#CFD1CE;
-
 }
 
 .vivi-favorite-container{
@@ -378,14 +373,13 @@ left: 37rem;
     height: 65%;
     background-color:#a0a0a0;
     grid-template-rows: 1fr;
-    
 }
 
 .span-fav{
     margin: .5rem .5rem;
 }
 
- .fav-pic{
+.fav-pic{
     width: 100%;
     height: 85%;
     background-position: center;
@@ -827,12 +821,12 @@ footer{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #ffffffda;
+        background-color: #fffffffd;
         width: 30%;
         min-height: 50vh;
         z-index: 1;
         border-right: 5px solid #4c534c5b;
-        border-bottom: 5px solid #4c534c5b;
+        border-bottom: 5px solid #4c534cd0;
     }
 
     li{
@@ -991,6 +985,8 @@ footer{
 
 
 
+
+
     /* VIVI FAVOURITE */
     .vivi-favorite{
         height: 190vh; 
@@ -999,7 +995,6 @@ footer{
     .vivi-favorite-container{
         height: 185vh;
     }
-    
       
     .grid-3-col{
         grid-template-columns: 1fr;  
@@ -1009,7 +1004,6 @@ footer{
         width: 60%;
         height: 85%;
         grid-template-rows: repeat(3, 1fr);
-        
     }
     
     .span-fav{
@@ -1018,6 +1012,9 @@ footer{
     
 
 }
+
+
+
 
 @media  (max-width: 500px){
 
@@ -1029,11 +1026,11 @@ footer{
     }
 
     #navigation{
-        width: 40%;
+        width: 50%;
 
     }
 
-    /* FLOWER  */
+
 
 
     /* THE FRENCCH INSPIRED HOME */
@@ -1047,6 +1044,10 @@ footer{
     .french-inspired-home{
         width: 95%;
     }
+
+
+
+
 
     /* VIVI GIFT SECTION*/
 
@@ -1063,6 +1064,8 @@ footer{
         height: 7vh;
     }
     
+
+
 
 
     /* vivi gift text content  */
@@ -1087,6 +1090,10 @@ footer{
 
     }
 
+
+
+
+
     /* THE VIVI MARGOT PAGE */
 
     .row-layout{
@@ -1101,6 +1108,10 @@ footer{
         color: black;
     }
 
+
+
+
+
     /* VIVI FAVOURITE */
     .fav-content{
         width: 80%;
@@ -1108,5 +1119,19 @@ footer{
         grid-template-rows: repeat(3, 1fr);
         
     }
+
+
+
+    /* ABOUT US SECTION */
+    .about-us-img{
+        width: 50%;
+        top: 0;
+        left: 1rem;
+    }
+
+    .about-us-container img{
+        width: 80%;
+    }
+
 
 }
