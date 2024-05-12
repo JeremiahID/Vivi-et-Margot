@@ -38,6 +38,10 @@ header{
 }
 
 
+
+
+
+
 /* GIFTCARD SECTION*/
 
 .gift-card{
@@ -69,6 +73,10 @@ header{
 }
 
 
+
+
+
+
 /* lOGO SECTION */
 
 .page-head{
@@ -90,6 +98,11 @@ header{
 .currency{
     color: black;
 }
+
+
+
+
+
 /* CART-SEARCH SECTION */
 
 .cart-search{
@@ -122,6 +135,10 @@ header{
     padding: 0rem .5rem;
 }
 
+
+
+
+
 /* NAVIGATIONS */
 
 li{
@@ -134,11 +151,19 @@ li a:hover{
 }
 
 
+
+
+
 /* FLOWER SECTION */
 .flower{
     height: 10vh;
     background-image: url('../images/flower.webp');
 }
+
+
+
+
+
 
 
 /* THE FRENCCH INSPIRED HOME */
@@ -216,6 +241,11 @@ li a:hover{
 
 
 
+
+
+
+
+
 /* vivi gift section */
 
 .vivi-gift{
@@ -248,6 +278,12 @@ li a:hover{
     top: 5rem;
     left: 20rem;
 }
+
+
+
+
+
+
 
 /* vivi gift text content  */
 .vivi-gift-text{
@@ -291,6 +327,10 @@ left: 37rem;
 .curve-img{
     border-radius: 10px;
 }
+
+
+
+
 
 
 /* VIVI ET FAVORITES */
@@ -406,6 +446,10 @@ left: 37rem;
 }
 
 
+
+
+
+
 /* ABOUT US */
 
 .about-us{
@@ -422,7 +466,6 @@ left: 37rem;
     left: 47rem;
 }
 
-
 .about-us-container{
     width: 40%;
     min-height: 75vh;
@@ -437,12 +480,22 @@ left: 37rem;
     margin: 1rem 0rem;
 }
 
+.about-us-link:hover{
+    transition: all .5s linear 0s;
+    background-color: #6d776e;
+
+}
+
 .vivi-about-us-p{
     font-size: 1rem;
     font-weight: bold;
     padding: 1.5rem 0rem;
     color: #4C534C;
 }
+
+
+
+
 
 
 /* FOOTER */
@@ -452,6 +505,8 @@ footer{
     width: 100%;
     background-color: #4C534C;
 }
+
+
 
 
 
@@ -516,6 +571,8 @@ footer{
 }
 
 
+
+
 /* ROW ONE IMAGES */
 
 :where(.lamp:hover, .vivi-cup:hover, .vivi-brass-cup:hover) :is(.coll-pic-name){
@@ -543,13 +600,16 @@ footer{
 }
 
 
+
+
+
+
 /* ROW TWO IMAGES */
 
 :where(.pot:hover, .tray:hover, .card-tray:hover:hover) :is(.coll-pic-name){
     display: flex;
     transition: all .5s step-start 0s;
 }
-
 
 .pot{
     background-image: url('../images/70aca0_d27f87f1a60845709cf148bceb08493a~mv2.webp');
@@ -577,6 +637,10 @@ footer{
     transition: all .3s ease-in-out 0s;
     background-image: url('../images/70aca0_77f75dedf5734102a5a9215bc18a76b7~mv2.webp');
 }
+
+
+
+
 
 
 /* ROW THREE IMAGES */
@@ -615,6 +679,11 @@ footer{
 }
 
 
+
+
+
+
+
 /* ROW FOUR IMAGES */
 
 :where(.linen-apron:hover, .card-box:hover, .string-bag:hover) :is(.coll-pic-name){
@@ -649,6 +718,9 @@ footer{
     transition: all .3s ease-in-out 0s;
     background-image: url('../images/70aca0_d8eba4c90fc0452698cd6543918be3f6~mv2.webp');
 }
+
+
+
 
 
 
@@ -789,6 +861,9 @@ footer{
     /* FLOWER  */
 
 
+
+
+
         /* THE FRENCCH INSPIRED HOME */
     .french-inspired{
         min-height: 250vh;
@@ -816,6 +891,9 @@ footer{
     }
 
 
+
+
+
     /* VIVI GIFT SECTION*/
     
     .vivi-gift-container{
@@ -830,6 +908,9 @@ footer{
     .vivi-gift-img-header img {
         height: 5vh;
     }
+
+
+
 
         /* vivi gift text content  */
     .vivi-gift-text{
@@ -866,6 +947,10 @@ footer{
         top: 4.5rem;
         right: 11.5rem;
     }
+
+
+
+
 
     /* ABOUT US SECTION */
     .about-us-img{
