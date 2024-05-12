@@ -437,6 +437,13 @@ left: 37rem;
     margin: 1rem 0rem;
 }
 
+.vivi-about-us-p{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1.5rem 0rem;
+    color: #4C534C;
+}
+
 
 /* FOOTER */
 
@@ -859,6 +866,24 @@ footer{
         top: 4.5rem;
         right: 11.5rem;
     }
+
+    /* ABOUT US SECTION */
+    .about-us-img{
+
+        top: 0;
+        left: 2rem;
+    }
+
+    .about-us-container{
+        width: 90%;
+    }
+
+    .about-us-link{
+        background-color: #4C534C;
+        padding: .7rem 1.2rem;
+        margin: 1rem 0rem;
+    }
+
 
 
 
