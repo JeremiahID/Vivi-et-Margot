@@ -1131,3 +1131,63 @@ footer{
 
 
 }
+
+
+@media  (max-width: 380px){
+
+    .logo img{
+        height: 3.5vh;
+    }
+
+
+
+
+    /* THE FRENCCH INSPIRED HOME */
+    .french-inspired-home-top-img{
+        left: 5rem;
+    
+    }
+
+
+
+    /* VIVI GIFT SECTION*/
+    .vivi-gift-img-header{
+        left: 4rem;
+        
+    }
+    
+
+
+    /* vivi gift text content  */
+    .vivi-gift-text{
+        width: 100%;
+    }
+
+    .vivi-gift-text-p{
+        font-weight: bold;
+    }
+
+
+
+    /* THE VIVI MARGOT PAGE */
+
+    .row-layout{
+        width: 95%; 
+    }
+
+
+    /* VIVI FAVOURITE */
+    .fav-content{
+        width: 90%;
+        
+    }
+
+
+
+    /* ABOUT US SECTION */
+    .vivi-about-us-p{
+        padding:2rem 1rem;
+    }
+
+
+}
