@@ -776,17 +776,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media  (max-width: 900px){
     .gift-card{
         display: none;
@@ -1174,6 +1163,12 @@ footer{
     .row-layout{
         width: 95%; 
     }
+    
+    /* .vivi-margot-head{
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+    } */
 
 
     /* VIVI FAVOURITE */
