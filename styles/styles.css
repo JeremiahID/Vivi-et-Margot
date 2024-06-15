@@ -557,9 +557,40 @@ li a:hover{
 /* FOOTER */
 
 footer{
-    height: 20vh;
+    height: 50vh;
     width: 100%;
-    background-color: #ffffffe3;
+    background-color:#fff;
+    flex-direction: column;
+}
+
+footer > img{
+    width: 10vw;
+}
+
+.footer-links, .footer-socials{
+    width: 50%;
+    justify-content: space-evenly;
+    margin: 1rem 0rem;
+}
+
+.footer-socials{
+    width: 20%;
+}
+
+.footer-links a{
+    color: #a0a0a0;
+    font-weight: bold;
+    
+}
+
+.footer-links a:hover{
+    color:#c4c1c1;
+    
+}
+
+footer p{
+    color: #4C534C;
+    font-weight: bold;
 }
 
 
@@ -601,7 +632,6 @@ footer{
     align-items: flex-end;
 }
 
-
 .coll-pic-name{
     height: 5vh;
     width: 100%;
@@ -625,6 +655,8 @@ footer{
     display: flex;
     transition: all .5s step-start 0s;
 }
+
+
 
 
 
