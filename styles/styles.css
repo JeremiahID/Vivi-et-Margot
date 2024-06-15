@@ -528,6 +528,7 @@ li a:hover{
     border-bottom: 1px solid #FFFFFF;
     margin: .5rem 1rem;
     font-size: 1rem;
+    padding-left: .5rem;
 }
 
 #email::placeholder{
@@ -549,9 +550,6 @@ li a:hover{
     border: transparent;
 }
 
-.subscription-feedback{
-    
-}
 
 
 
@@ -1017,6 +1015,38 @@ footer{
 
 
 
+    /* the seubscribe section */
+    .subscribe{
+        height: 40vh;
+        width: 100%;
+        background-color: #4c534ce3;
+        flex-direction: column;
+    }
+
+    .subscribe > h1{
+        text-transform:uppercase;
+        color: #c4c1c1;
+        font-family: Candara light;
+    }
+
+    .subscribe > p{
+        width: 45%;
+
+    }
+
+
+    #email{
+        width: 35vw;
+    }
+
+    #subscribe-button{
+        width: 12vw;
+    }
+
+
+
+
+
 
     /* THE VIVI MARGOT PAGE */
 
@@ -1181,6 +1211,34 @@ footer{
 
     .about-us-container img{
         width: 80%;
+    }
+
+
+
+        
+    /* the seubscribe section */
+    .subscribe{
+        height: 40vh;
+    }
+
+    .subscribe > h1{
+        text-transform:uppercase;
+        color: #c4c1c1;
+        font-family: Candara light;
+    }
+
+    .subscribe > p{
+        width: 85%;
+
+    }
+
+
+    #email{
+        width: 50vw;
+    }
+
+    #subscribe-button{
+        width: 18vw;
     }
 
 
