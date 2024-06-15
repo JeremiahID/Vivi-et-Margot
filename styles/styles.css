@@ -565,6 +565,8 @@ footer{
 
 footer > img{
     width: 10vw;
+    color: #4C534C;
+    margin: 1rem 0rem;
 }
 
 .footer-links, .footer-socials{
@@ -578,7 +580,7 @@ footer > img{
 }
 
 .footer-links a{
-    color: #a0a0a0;
+    color: #4C534C;
     font-weight: bold;
     
 }
@@ -1076,6 +1078,18 @@ footer p{
     }
 
 
+    /* FOOTER SECTION */
+    footer > img{
+        width: 20vw;
+    }
+    
+    .footer-links, .footer-socials{
+        width: 90%;
+    }
+    
+
+    
+
 
 
 
@@ -1272,6 +1286,29 @@ footer p{
     #subscribe-button{
         width: 18vw;
     }
+
+    
+
+
+
+
+    /* FOOTER SECTION */
+    footer > img{
+        width: 25vw;
+    }
+    
+    .footer-links, .footer-socials{
+        width: 100%;
+        font-size: .6rem;
+
+    }
+    
+    .footer-socials{
+        width: 40%;
+    }
+    
+
+    
 
 
 }
