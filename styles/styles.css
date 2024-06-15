@@ -487,7 +487,23 @@ li a:hover{
 }
 
 
+.subscribe{
+    height: 40vh;
+    width: 100%;
+    background-color: #4c534ce3;
+    flex-direction: column;
+}
 
+.subscribe > h1{
+    text-transform:uppercase;
+    color: #c4c1c1;
+}
+
+.subscribe > p{
+    text-align: center;
+    width: 25%;
+
+}
 
 
 
@@ -496,7 +512,7 @@ li a:hover{
 footer{
     height: 20vh;
     width: 100%;
-    background-color: #4C534C;
+    background-color: #ffffffe3;
 }
 
 
