@@ -487,6 +487,10 @@ li a:hover{
 }
 
 
+
+
+
+/* the seubscribe section */
 .subscribe{
     height: 40vh;
     width: 100%;
@@ -497,13 +501,58 @@ li a:hover{
 .subscribe > h1{
     text-transform:uppercase;
     color: #c4c1c1;
+    font-family: Candara light;
 }
 
 .subscribe > p{
     text-align: center;
     width: 25%;
+    font-size: .9rem;
+    padding: 1.5rem 0rem;
 
 }
+
+
+#subscribe-email{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
+
+#email{
+    width: 20vw;
+    height: 4vh;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    margin: .5rem 1rem;
+    font-size: 1rem;
+}
+
+#email::placeholder{
+    color:#FFFFFF;
+    padding-left: .2rem;
+}
+
+#subscribe-button{
+    width: 7vw;
+    height: 4vh;
+    background-color: transparent;
+    border: 1px solid #c4c1c1;
+    cursor: pointer;
+}
+
+#subscribe-button:hover{
+    transition: all .5s ease-in 0s;
+    background-color: #a0a0a0;
+    border: transparent;
+}
+
+.subscription-feedback{
+    
+}
+
 
 
 

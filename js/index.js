@@ -45,3 +45,18 @@ CloseHamburger.click(()=>{
         Navigation.css("display", "none")
     }
 })
+
+
+
+// VALIDATION CHECK FOR THE EMAIL
+var Email = $("#email");
+var Subscribe = $("#subscribe-button");
+var Feedback = $(".subscription-feedback")
+
+Subscribe.click(()=>{
+    if(Email.val().includes("@")){
+        Feedback.text("Subcription successful.")
+    } else{
+        Feedback.text("Invalid email")
+    }
+})
